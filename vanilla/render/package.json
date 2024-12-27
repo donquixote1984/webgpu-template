@@ -1,0 +1,19 @@
+{
+  "name": "render",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.0.3"
+  },
+  "dependencies": {
+    "tolw": "^0.1.8",
+    "vite-plugin-wasm": "^3.4.1",
+    "wgpu-matrix": "^3.0.2"
+  }
+}
